@@ -32,7 +32,8 @@ nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap oo o<Esc>k						      
 "This allows me to get rid of the highlighting.
 nmap <Leader><space> :nohlsearch<cr>			      
-
+"Make NERDTree easier to toggle
+nmap <D-1> :NERDTreeToggle<cr>
 
 "-------------Split Management------------"
 "This sets the split always below the current one.
